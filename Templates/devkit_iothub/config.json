@@ -1,0 +1,47 @@
+{
+    "author": "Microsoft",
+    "classifications": {
+        "platformId": "arduino",
+		"boardId": "devKit"
+    },
+    "name": "devkit_iothub",
+    "label": "Create project that connects to Azure IoT Hub, such as sending sensor data to cloud.",
+    "tags": [ "core"],
+    "files": [
+        {
+            "fileId": "iothubsketch",
+            "sourcepath": "./simple_iothub.ino",
+            "description": "default ino file"
+        },
+        {
+            "fileName": "c_cpp_properties_win32",
+            "os": "win32",
+            "sourcePath": "./config/c_cpp_properties_win32.json",
+            "targetPath": "./.vscode/c_cpp_properties.json",
+            "description": "config file for win32 platform",
+			"parameters": [
+                {
+                    "name": "VERSION"
+                },
+                {
+                    "name": "ROOTPATH"
+                }
+			]
+        },
+        {
+            "fileName": "c_cpp_properties_macos",
+            "os": "macos",
+            "sourcePath": "./config/c_cpp_properties_macos.json",
+            "targetPath": "./.vscode/c_cpp_properties.json",
+            "description": "config file for macos platform",
+			"parameters": [
+                {
+                    "name": "VERSION"
+                },
+                {
+                    "name": "ROOTPATH"
+                }
+			]
+        }
+    ]
+}

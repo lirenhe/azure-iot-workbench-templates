@@ -1,0 +1,22 @@
+{
+  "platforms": [
+      {
+          "id": "arduino",
+          "label": "Arduino",
+          "detail": "Project based on Arduino Platform.",
+          "description": ""
+      },
+      {
+          "id": "linux",
+          "label": "Linux",
+          "detail": "Project based on Linux(Yocto/Ubuntu/Debian/...) Platform.",
+          "description": ""
+      },
+      {
+        "id": "others",
+        "label": "Others",
+        "detail": "Project based on unknown Platform.",
+        "description": ""
+    }
+  ]
+}

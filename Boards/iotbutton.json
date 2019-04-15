@@ -1,0 +1,7 @@
+    {
+        "name": "IoT button",
+        "platformId": "others",
+        "id": "iotbutton",
+        "detailInfo": "teXXmo – Microsoft Azure IoT Developer Kit",
+        "helpUrl": "https://aka.ms/button"
+    }
