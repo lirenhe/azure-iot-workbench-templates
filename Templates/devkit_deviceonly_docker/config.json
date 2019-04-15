@@ -19,7 +19,7 @@
             "description": "docker build file"
         },
         {
-            "fileName": "c_cpp_properties_win32",
+            "fileId": "c_cpp_properties_win32",
             "os": "win32",
             "sourcePath": "./config/c_cpp_properties_win32.json",
             "targetPath": "./.vscode/c_cpp_properties.json",
@@ -34,12 +34,12 @@
 			]
         },
         {
-            "fileName": "c_cpp_properties_macos",
+            "fileId": "c_cpp_properties_macos",
             "os": "macos",
             "sourcePath": "./config/c_cpp_properties_macos.json",
             "targetPath": "./.vscode/c_cpp_properties.json",
             "description": "config file for macos platform",
-			"parameters": [
+	    "parameters": [
                 {
                     "name": "VERSION"
                 },
